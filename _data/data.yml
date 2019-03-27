@@ -122,12 +122,6 @@ projects:
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-
     papers:
       - title: A Large-Scale Empirical Analysis of Chinese Web Passwords
         authors: Zhigong Li, Weili Han, Wenyuan Xu
@@ -140,6 +134,10 @@ publications:
       - title: Shadow Attacks Based on Password Reuses: A Quantitative Empirical Analysis
         authors: Weili Han, Zhigong Li, Minyue Ni, Guofei Gu, Wenyuan Xu
         conference: [IEEE Transactions on Dependable and Secure Computing (TDSC)](https://ieeexplore.ieee.org/abstract/document/7469392)
+
+      - title: Zero-Sum Password Cracking Game: A Large-Scale Empirical Study on the Crackability, Correlation, and Security of Passwords
+        authors: Shouling Ji, Shukun Yang, Xin Hu, Weili Han, Zhigong Li, Raheem Beyah
+        conference: [IEEE Transactions on Dependable and Secure Computing (TDSC)](https://ieeexplore.ieee.org/abstract/document/7275157/)
 
 skills:
     title: Skills &amp; Proficiency
