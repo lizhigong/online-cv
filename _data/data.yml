@@ -29,7 +29,7 @@ sidebar:
         level: Native
 
       - idiom: English
-        level: Fluent
+        level: CET-6 545, TOFEL 97
 
 # career-profile:
 #     title: Career Profile
@@ -45,74 +45,62 @@ sidebar:
 education:
     - degree: MSc in Computer Science
       university: Fudan University
-      time: 2013 - 2016
+      time: 2013.09 - 2016.06
       details: |
-          - National Scholarship for graduates (2015)
-          - National Scholarship for graduates (2014)
+          - Shanghai Outstanding Graduates (2016)
+          - National Scholarship for graduates (2014, 2015)
           - USENIX Student Grant (2014)
+            - Published a paper in USENIX Security Symposium (one of the four major international security conferences) as the first author and gave the speech about Chinese passwords.
           - Second Gradle Scholarship for Graduate Freshman
 
     - degree: BSc in Software Engineering
       university: Fudan University
-      time: 2009 - 2013
+      time: 2009.09 - 2013.06
 
-    - degree: Bsc in Computer Science
+    - degree: BSc in Computer Science
       university: University College Dublin
-      time: 2010 - 2013
+      time: 2010.09 - 2013.06
       details: |
           Joint education with Fudan University.
 
 experiences:
-    title: Experiences (Unfinished)
+    title: Experiences
 
     details:
       - role: Software Engineer
-        time: 2016 - Present
-        company: Unity Technology (Shanghai)
+        time: 2016.07 - Present
+        company: Unity Technologies (Shanghai)
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-
-            - Bullet point
-            - Bullet point
+            - [Unity Distribution Portal](#UDP)
+            - [Player ID System](#PlayerId)
 
       - role: Software Engineer Intern
         time: 2015.7 - 2015.9
         company: Microsoft (Shanghai)
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-
-            - Bullet point
-            - Bullet point
 
 projects:
-    title: Projects (Unfinished)
+    title: Projects
 
     assignments:
-      - title: Unity Distribution Portal
-        Techs: C#, Java, Android
+      - title: Unity Distribution Portal (UDP) <a id="UDP"> </a>
+        techs: C#, Java, Android
         link: "https://distribute.dashboard.unity.com/udp/homepage"
-        tagline: "A Unity product that allows you to distribute your games to multiple app stores through a single hub. UDP repacks your Android build with each store’s dedicated IAP SDK and lets you manage all your store submissions from the UDP console."
-        My Work:
+        tagline: "Unity Distribution Portal is a Unity product that allows developers to distribute games to multiple app stores through a single hub. UDP repacks Android apk with each store’s dedicated IAP SDK and lets developers manage all their store submissions from the UDP console. \n 
+        - Write an Android plugin that has a fake store and integrate real stores' IAP SDK. \n
+        - Write Unity extension (C#) to help developers access the service through OAuth2.0. \n
+        - Repack the Android APK on the server side (Java): Unzip APK, replace smali files of real stores, using aapt2 to rebuild resources, generate R files and at last, output a new APK that targets a desired store. \n
+        - Publish the [SDK](https://assetstore.unity.com/packages/add-ons/services/billing/unity-distribution-portal-138507) to Unity Asset Store and integrate the SDK into [UnityIAP](https://assetstore.unity.com/packages/add-ons/services/billing/unity-iap-68207) (C#), a service used by many developers. \n
+        - Dealing annoying Unity compatible problem with reflection (C#). \n
+        - Maintenance and bug fixes for the SDK. \n
+        - Got $1000 recognition bonus for the exceptional performance as a core member.\n"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Unity Player ID <a id="PlayerId"></a>
+        techs: Java, MongoDB
+        tagline: "A service which handles ID system for Unity developers
+(Similar to [Google Firebase Authentication](https://firebase.google.com/docs/auth/)). 
+Developers can manager users login with email/password, phone numbers, famous federated identity providers like Google, Facebook. \n 
+- Write server (Java) that creates user pool, deals with authorization and authentication for the developer. \n
+- Design B (Mongo) & Restful API. \n"
 
 publications:
     title: Publications
