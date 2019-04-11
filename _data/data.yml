@@ -102,7 +102,7 @@ projects:
 (Similar to [Google Firebase Authentication](https://firebase.google.com/docs/auth/)). 
 Developers can manager users login with email/password, phone numbers, famous federated identity providers like Google, Facebook. \n 
 - Write server (Java) that creates user pool, deals with authorization and authentication for the developer. \n
-- Design B (Mongo) & Restful API. \n"
+- Design DB (Mongo) & Restful API. \n"
 
 publications:
     title: Publications
