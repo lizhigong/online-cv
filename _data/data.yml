@@ -50,8 +50,8 @@ education:
           - Shanghai Outstanding Graduates (2016)
           - National Scholarship for graduates (2014, 2015)
           - USENIX Student Grant (2014)
-            - Published a paper in USENIX Security Symposium (one of the four major international security conferences) as the first author and gave the speech about Chinese passwords.
-          - Second Gradle Scholarship for Graduate Freshman
+            - Published a paper in USENIX Security Symposium (one of the four major international security conferences) as the first author and gave a speech about Chinese passwords.
+          - Second gradle Scholarship for Graduate Freshman
 
     - degree: BSc in Software Engineering
       university: Fudan University
@@ -92,7 +92,7 @@ projects:
         - Write Unity extension (C#) to help developers access the service through OAuth2.0. \n
         - Repack the Android APK on the server side (Java): Unzip APK, replace smali files of real stores, using aapt2 to rebuild resources, generate R files and at last, output a new APK that targets a desired store. \n
         - Publish the [SDK](https://assetstore.unity.com/packages/add-ons/services/billing/unity-distribution-portal-138507) to Unity Asset Store and integrate the SDK into [UnityIAP](https://assetstore.unity.com/packages/add-ons/services/billing/unity-iap-68207) (C#), a service used by many developers. \n
-        - Dealing annoying Unity compatible problem with reflection (C#). \n
+        - Dealing with Unity compatible problem with reflection (C#). \n
         - Maintenance and bug fixes for the SDK. \n
         - Got $1000 recognition bonus for the exceptional performance as a core member.\n"
 
@@ -100,7 +100,7 @@ projects:
         techs: Java, MongoDB
         tagline: "A service which handles ID system for Unity developers
 (Similar to [Google Firebase Authentication](https://firebase.google.com/docs/auth/)). 
-Developers can manager users login with email/password, phone numbers, famous federated identity providers like Google, Facebook. \n 
+Developers can manage users login with email/password, phone numbers, famous federated identity providers like Google, Facebook. \n 
 - Write server (Java) that creates user pool, deals with authorization and authentication for the developer. \n
 - Design DB (Mongo) & Restful API. \n"
 
